@@ -1,0 +1,20 @@
+{
+  "name": "pvillareal/simple-caches",
+  "description": "simple caches",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Philippe"
+    }
+  ],
+  "require": {
+    "psr/simple-cache": "*",
+    "php-di/php-di": "6.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "pvillareal\\": "src/"
+    }
+  }
+}
